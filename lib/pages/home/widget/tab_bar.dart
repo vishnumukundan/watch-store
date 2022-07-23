@@ -18,12 +18,7 @@ class TabBar__widget extends StatelessWidget {
         unselectedLabelColor: kColorAccent2.withOpacity(0.65),
         labelPadding: const EdgeInsets.symmetric(horizontal: 0),
         tabs: const [
-          Tab__widget(
-            text: 'Smart Watch',
-            textColor: kColorPrimary,
-            fontWeight: FontWeight.w600,
-            indicatorColor: kColorPrimary,
-          ),
+          Tab__widget(text: 'Smart Watch', selected: true),
           Tab__widget(text: 'Casio'),
           Tab__widget(text: 'Tissot'),
           Tab__widget(text: 'Seiko'),
@@ -39,15 +34,11 @@ class Tab__widget extends StatelessWidget {
   const Tab__widget({
     Key? key,
     required this.text,
-    this.textColor,
-    this.indicatorColor,
-    this.fontWeight,
+    this.selected = false,
   }) : super(key: key);
 
   final text;
-  final textColor;
-  final indicatorColor;
-  final fontWeight;
+  final selected;
 
   @override
   Widget build(BuildContext context) {
@@ -60,14 +51,14 @@ class Tab__widget extends StatelessWidget {
           children: <Widget>[
             TitleMedium__text(
               text: text,
-              fontWeight: fontWeight ?? FontWeight.w500,
-              color: textColor ?? kColorAccent2.withOpacity(0.65),
+              fontWeight: selected ? FontWeight.w600 : FontWeight.w500,
+              color: selected ? kColorPrimary : kColorAccent2.withOpacity(0.65),
             ),
             kSizedBoxHeight_8,
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
-                color: indicatorColor ?? Colors.transparent,
+                color: selected ? kColorPrimary : Colors.transparent,
               ),
               height: 2,
               width: 32,

@@ -42,6 +42,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/Mi_Watch.png
   AssetGenImage get miWatch =>
       const AssetGenImage('assets/images/Mi_Watch.png');
+
+  /// File path: assets/images/apple_large.png
+  AssetGenImage get appleLarge =>
+      const AssetGenImage('assets/images/apple_large.png');
 }
 
 class Assets {
