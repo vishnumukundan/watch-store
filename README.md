@@ -17,8 +17,8 @@
     <a href="#about_project">About The Project</a>
     ·
     <a href="#screenshots">Screenshots</a>
-    ·
-    <a href="#design_pattern">Design Pattern</a>
+<!--     ·
+    <a href="#design_pattern">Design Pattern</a> -->
     .
     <a href="#acknowledgments">Acknowledgments</a>
     ·
@@ -57,7 +57,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## :blue_book: About The Project
 
-This is a project that mimics the UI and some functionalities of the social media application WhatsApp. This project is mainly focused on the user interface of the application.
+This is a small user interface design project for an e-commerce smartwatch store. This is inspired by a figma design by [Bony Fasius Gultom](https://www.figma.com/community/file/1132226107845791209) .
 
 <br />
 
@@ -81,15 +81,15 @@ This is a project that mimics the UI and some functionalities of the social medi
 ## :camera: Screenshots
 
 <div style="display:grid">
-    <img style="width: 150px" src="screenshots/home.jpg" alt="home screen" title="home screen">
-    <img style="width: 150px" src="screenshots/detail.jpg" alt="detail screen" title="detail screen">
+    <img style="width: 300px" src="screenshots/home.png" alt="home screen" title="home screen">
+    <img style="width: 300px" src="screenshots/detail.png" alt="detail screen" title="detail screen">
 </div>
 
 <p align="right"><a href="#top"> :arrow_up_small: </a></p>
 
-<br />
+<!-- <br /> -->
 <!-- DESIGN PATTERN -->
-<div id="design_pattern"></div>
+<!-- <div id="design_pattern"></div>
 
 ## :open_file_folder: Design Pattern
 
@@ -106,7 +106,7 @@ This is a project that mimics the UI and some functionalities of the social medi
 - utilities
   - services
 
-<p align="right"><a href="#top"> :arrow_up_small: </a></p>
+<p align="right"><a href="#top"> :arrow_up_small: </a></p>  -->
 
 
 
@@ -116,8 +116,8 @@ This is a project that mimics the UI and some functionalities of the social medi
 
 ## :smiling_face_with_three_hearts: Aknowledgments
 
+- [Bony Fasius Gultom](https://www.figma.com/@itsmebfg)
 - [Stack Overflow](https://stackoverflow.com/)
-- [Medium](https://medium.com/)
 - [Github Stickers](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 
