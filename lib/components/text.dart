@@ -86,7 +86,7 @@ class DisplayLarge__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_DisplayLarge_FontSize,
       letterSpacing: letterSpacing ?? kConfig_DisplayLarge_LetterSpacing,
-      height: kConfig_DisplayLarge_LineHeight,
+      height: lineHeight ?? kConfig_DisplayLarge_LineHeight,
       fontWeight: fontWeight ?? kConfig_DisplayLarge_FontWeight,
     );
   }
@@ -125,7 +125,7 @@ class DisplayMedium__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_DisplayMedium_FontSize,
       letterSpacing: letterSpacing ?? kConfig_DisplayMedium_LetterSpacing,
-      height: kConfig_DisplayMedium_LineHeight,
+      height: lineHeight ?? kConfig_DisplayMedium_LineHeight,
       fontWeight: fontWeight ?? kConfig_DisplayMedium_FontWeight,
     );
   }
@@ -164,7 +164,7 @@ class DisplaySmall__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_DisplaySmall_FontSize,
       letterSpacing: letterSpacing ?? kConfig_DisplaySmall_LetterSpacing,
-      height: kConfig_DisplaySmall_LineHeight,
+      height: lineHeight ?? kConfig_DisplaySmall_LineHeight,
       fontWeight: fontWeight ?? kConfig_DisplaySmall_FontWeight,
     );
   }
@@ -204,7 +204,7 @@ class HeadlineLarge__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_HeadlineLarge_FontSize,
       letterSpacing: letterSpacing ?? kConfig_HeadlineLarge_LetterSpacing,
-      height: kConfig_HeadlineLarge_LineHeight,
+      height: lineHeight ?? kConfig_HeadlineLarge_LineHeight,
       fontWeight: fontWeight ?? kConfig_HeadlineLarge_FontWeight,
     );
   }
@@ -243,7 +243,7 @@ class HeadlineMedium__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_HeadlineMedium_FontSize,
       letterSpacing: letterSpacing ?? kConfig_HeadlineMedium_LetterSpacing,
-      height: kConfig_HeadlineMedium_LineHeight,
+      height: lineHeight ?? kConfig_HeadlineMedium_LineHeight,
       fontWeight: fontWeight ?? kConfig_HeadlineMedium_FontWeight,
     );
   }
@@ -282,7 +282,7 @@ class HeadlineSmall__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_HeadlineSmall_FontSize,
       letterSpacing: letterSpacing ?? kConfig_HeadlineSmall_LetterSpacing,
-      height: kConfig_HeadlineSmall_LineHeight,
+      height: lineHeight ?? kConfig_HeadlineSmall_LineHeight,
       fontWeight: fontWeight ?? kConfig_HeadlineSmall_FontWeight,
     );
   }
@@ -322,7 +322,7 @@ class TitleLarge__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_TitleLarge_FontSize,
       letterSpacing: letterSpacing ?? kConfig_TitleLarge_LetterSpacing,
-      height: kConfig_TitleLarge_LineHeight,
+      height: lineHeight ?? kConfig_TitleLarge_LineHeight,
       fontWeight: fontWeight ?? kConfig_TitleLarge_FontWeight,
     );
   }
@@ -361,7 +361,7 @@ class TitleMedium__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_TitleMedium_FontSize,
       letterSpacing: letterSpacing ?? kConfig_TitleMedium_LetterSpacing,
-      height: kConfig_TitleMedium_LineHeight,
+      height: lineHeight ?? kConfig_TitleMedium_LineHeight,
       fontWeight: fontWeight ?? kConfig_TitleMedium_FontWeight,
     );
   }
@@ -400,7 +400,7 @@ class TitleSmall__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_TitleSmall_FontSize,
       letterSpacing: letterSpacing ?? kConfig_TitleSmall_LetterSpacing,
-      height: kConfig_TitleSmall_LineHeight,
+      height: lineHeight ?? kConfig_TitleSmall_LineHeight,
       fontWeight: fontWeight ?? kConfig_TitleSmall_FontWeight,
     );
   }
@@ -440,7 +440,7 @@ class LabelLarge__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelLarge_FontSize,
       letterSpacing: letterSpacing ?? kConfig_LabelLarge_LetterSpacing,
-      height: kConfig_LabelLarge_LineHeight,
+      height: lineHeight ?? kConfig_LabelLarge_LineHeight,
       fontWeight: fontWeight ?? kConfig_LabelLarge_FontWeight,
     );
   }
@@ -479,7 +479,7 @@ class LabelMedium__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelMedium_FontSize,
       letterSpacing: letterSpacing ?? kConfig_LabelMedium_LetterSpacing,
-      height: kConfig_LabelMedium_LineHeight,
+      height: lineHeight ?? kConfig_LabelMedium_LineHeight,
       fontWeight: fontWeight ?? kConfig_LabelMedium_FontWeight,
     );
   }
@@ -518,7 +518,7 @@ class LabelSmall__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelSmall_FontSize,
       letterSpacing: letterSpacing ?? kConfig_LabelSmall_LetterSpacing,
-      height: kConfig_LabelSmall_LineHeight,
+      height: lineHeight ?? kConfig_LabelSmall_LineHeight,
       fontWeight: fontWeight ?? kConfig_LabelSmall_FontWeight,
     );
   }
@@ -558,7 +558,7 @@ class BodyLarge__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelLarge_FontSize,
       letterSpacing: letterSpacing ?? kConfig_BodyLarge_LetterSpacing,
-      height: kConfig_BodyLarge_LineHeight,
+      height: lineHeight ?? kConfig_BodyLarge_LineHeight,
       fontWeight: fontWeight ?? kConfig_BodyLarge_FontWeight,
     );
   }
@@ -597,7 +597,7 @@ class BodyMedium__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelMedium_FontSize,
       letterSpacing: letterSpacing ?? kConfig_BodyMedium_LetterSpacing,
-      height: kConfig_BodyMedium_LineHeight,
+      height: lineHeight ?? kConfig_BodyMedium_LineHeight,
       fontWeight: fontWeight ?? kConfig_BodyMedium_FontWeight,
     );
   }
@@ -636,7 +636,7 @@ class BodySmall__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_LabelSmall_FontSize,
       letterSpacing: letterSpacing ?? kConfig_BodySmall_LetterSpacing,
-      height: kConfig_BodySmall_LineHeight,
+      height: lineHeight ?? kConfig_BodySmall_LineHeight,
       fontWeight: fontWeight ?? kConfig_BodySmall_FontWeight,
     );
   }
@@ -676,7 +676,7 @@ class Button__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_Button_FontSize,
       letterSpacing: letterSpacing ?? kConfig_Button_LetterSpacing,
-      height: kConfig_Button_LineHeight,
+      height: lineHeight ?? kConfig_Button_LineHeight,
       fontWeight: fontWeight ?? kConfig_Button_FontWeight,
     );
   }
@@ -716,7 +716,7 @@ class Caption__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_Caption_FontSize,
       letterSpacing: letterSpacing ?? kConfig_Caption_LetterSpacing,
-      height: kConfig_Caption_LineHeight,
+      height: lineHeight ?? kConfig_Caption_LineHeight,
       fontWeight: fontWeight ?? kConfig_Caption_FontWeight,
     );
   }
@@ -756,7 +756,7 @@ class Overline__text extends StatelessWidget {
       color: color,
       fontSize: size ?? kConfig_Overline_FontSize,
       letterSpacing: letterSpacing ?? kConfig_Overline_LetterSpacing,
-      height: kConfig_Overline_LineHeight,
+      height: lineHeight ?? kConfig_Overline_LineHeight,
       fontWeight: fontWeight ?? kConfig_Overline_FontWeight,
     );
   }

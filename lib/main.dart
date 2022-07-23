@@ -11,10 +11,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const ScreenHome(),
+      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Raleway'),
+      home: ScreenHome(),
     );
   }
 }
